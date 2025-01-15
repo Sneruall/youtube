@@ -4,12 +4,16 @@ import Feature from "../components/Feature";
 import Grid from "../components/Grid";
 import Page from "../components/Page";
 import Teaser from "../components/Teaser";
+import Youtube from "../components/Youtube"; // import Youtube component
+import RichText from "../components/RichText"; // import RichText component
 
 const components = {
   feature: Feature,
   grid: Grid,
   teaser: Teaser,
   page: Page,
+  youtube: Youtube, // register Youtube component
+  richText: RichText, // register RichText component
 };
 
 storyblokInit({
